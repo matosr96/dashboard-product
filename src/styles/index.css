@@ -13,6 +13,12 @@
   --tran-04: all 0.3s ease;
   --tran-05: all 0.3s ease;
   --tran-06: all 0.8s ease;
+
+  /* ====== Colors ====== */
+  --color-primary: #6f6efd;
+  --color-secondary: #121212;
+  --color-claro: #f6f6f6;
+  --color-green: #5edb5b;
 }
 
 html {
@@ -27,7 +33,7 @@ html:focus-within {
 
 body {
   font-size: 1.6rem;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-rendering: optimizeSpeed;
   min-height: 100vh;
   transition: var(--tran-05);
